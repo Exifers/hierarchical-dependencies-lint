@@ -1,0 +1,26 @@
+{
+  "name": "hierarchical-dependencies-lint",
+  "version": "1.0.0",
+  "description": "A linter to set specific dependency rules for your project folders",
+  "main": "src/index.js",
+  "scripts": {
+    "try": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "lint",
+    "dependency",
+    "rules",
+    "project",
+    "hierarchy",
+    "import",
+    "graph"
+  ],
+  "author": "exifers",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "dependency-tree": "^7.0.2",
+    "yargs": "^14.0.0"
+  }
+}
